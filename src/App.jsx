@@ -17,19 +17,26 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
-      <WaveDivider fill="#ffffff" path="M0,32 C360,64 1080,0 1440,32 L1440,64 L0,64 Z" />
+      {/* Hero → About */}
+      <WaveDivider fill="#0f1714" path="M0,32 C360,64 1080,0 1440,32 L1440,64 L0,64 Z" />
       <About />
-      <WaveDivider fill="#fdddd4" path="M0,32 C480,64 960,0 1440,32 L1440,64 L0,64 Z" />
+      {/* About → Experience */}
+      <WaveDivider fill="#0e0b07" path="M0,32 C480,64 960,0 1440,32 L1440,64 L0,64 Z" />
       <Experience />
-      <WaveDivider fill="#e9f6f5" path="M0,20 C360,60 1080,0 1440,40 L1440,64 L0,64 Z" />
+      {/* Experience → Projects */}
+      <WaveDivider fill="#050d0c" path="M0,20 C360,60 1080,0 1440,40 L1440,64 L0,64 Z" />
       <Projects />
-      <WaveDivider fill="#fdf9f7" path="M0,40 C480,0 960,64 1440,20 L1440,64 L0,64 Z" />
+      {/* Projects → Skills */}
+      <WaveDivider fill="#07100e" path="M0,40 C480,0 960,64 1440,20 L1440,64 L0,64 Z" />
       <Skills />
-      <WaveDivider fill="#ffffff" path="M0,30 C400,64 1040,0 1440,35 L1440,64 L0,64 Z" />
+      {/* Skills → Publication */}
+      <WaveDivider fill="#0f1714" path="M0,30 C400,64 1040,0 1440,35 L1440,64 L0,64 Z" />
       <Publications />
-      <WaveDivider fill="#c8e9e7" path="M0,30 C400,64 1040,0 1440,35 L1440,64 L0,64 Z" />
+      {/* Publication → Certifications */}
+      <WaveDivider fill="#0a2420" path="M0,30 C400,64 1040,0 1440,35 L1440,64 L0,64 Z" />
       <Certifications />
-      <WaveDivider fill="#1a2e2c" path="M0,35 C360,0 1080,64 1440,25 L1440,64 L0,64 Z" />
+      {/* Certifications → Contact */}
+      <WaveDivider fill="#030807" path="M0,35 C360,0 1080,64 1440,25 L1440,64 L0,64 Z" />
       <Contact />
     </>
   );
